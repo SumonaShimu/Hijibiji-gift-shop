@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijibiji Giftshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-cover bg-right h-screen flex items-center" style="background-image: url('images/banner.jpg')">
+    <div
+        class="rounded-2xl w-1/2 h-max p-10 m-10 bg-gradient-to-r from-blue-300 hover:bg-gradient-to-t from-purple-300">
+        <h1 class="text-6xl">Welcome to <span class="text-lime-800 font-semibold animate-pulse ">Hiji</span><span
+                class="text-rose-600 font-semibold">biji</span></h1>
+        <p class="block my-10 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, quod eos
+            ea exercitationem nostrum nulla, eum illo facere, sed molestias adipisci! Ex, minima? Impedit consectetur
+            facere incidunt vitae nulla quod! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, blanditiis.
+        </p>
+        <button id='start-btn' class="text-xl font-medium animate-pulse bg-rose-500 px-4 py-2 rounded hover:animate-bounce">Get started</button>
+    </div>
+    <script>
+        document.getElementById('start-btn').addEventListener('click', function () {
+            document.location.href = './main.html';
+            console.log("welcome-page connected!")
+        })
+    </script>
+</body>
+
+</html>
